@@ -5,8 +5,8 @@ export default class ContactList extends Component {
     render() {
         return (
             <div className="row">
-                CONTACTS HERE
-            </div>
+            { this.props.contacts.map( c => <Contact contact={c} key={c._id} /> ) }
+        </div>
         )
     }
 }

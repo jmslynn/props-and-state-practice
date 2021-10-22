@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 
 export default class Contact extends Component {
-
     render() {
         return (
-            <div className="row">
+            <div className="col-md-6 col-xl-3 mb-4">
                 <div className="card">
                     <div className="card-body">
                         <h5 className="card-title">{this.props.contacts.firstName}</h5>
@@ -17,6 +16,9 @@ export default class Contact extends Component {
                         <li className="list-group-item">
                             <span className="text-muted">Address: </span>{this.props.contacts.address}
                         </li>
+                        <li className="list-group-item text-end">
+    <button className="btn btn-danger">Delete</button>
+</li>
                     </ul>
                 </div>
             </div>

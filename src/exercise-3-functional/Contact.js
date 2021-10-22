@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact(props) {
     return (
-        <div className="row">
+        <div className="col-md-6 col-xl-3 mb-4">
             <div className="card">
                 <div className="card-body">
                     <h5 className="card-title">{props.contact.firstName}</h5>

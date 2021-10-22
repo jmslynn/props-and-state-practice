@@ -9,13 +9,19 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 //import App from './exercise-1-functional/App';
 
 // Exercise 1: Functional Components
-import App from './exercise-1.1-functional/App';
+//import App from './exercise-1.1-functional/App';
 
 // Exercise 2: Class Components
 //import App from './exercise-2-class/App';
 
 // Exercise 2: Functional Components
-//import App from './exercise-2-functional/App';
+import App from './exercise-2-functional/App';
+
+// Exercise 3: Class Components
+//import App from './exercise-3-class/App';
+
+// Exercise 3: Functional Components
+//import App from './exercise-3-functional/App';
 
 ReactDOM.render(
   <React.StrictMode>
