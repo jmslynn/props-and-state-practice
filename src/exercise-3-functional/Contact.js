@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact(props) {
     return (
-        <div className="col-md-6 col-xl-3 mb-4">
+        <div className="row">
             <div className="card">
                 <div className="card-body">
                     <h5 className="card-title">{props.contact.firstName}</h5>
@@ -15,6 +15,9 @@ export default function Contact(props) {
                     <li className="list-group-item">
                         <span className="text-muted">Address: </span>{props.contact.address}
                     </li>
+                    <li className="list-group-item text-end">
+    <button className="btn btn-danger" onClick={ () => props.deleteContact(props.contact._id) }>Delete</button>
+</li>
                 </ul>
             </div>
         </div>

@@ -14,7 +14,7 @@ export default class App extends Component {
 		return (
 			<div className="container mt-5">
 				<div className="row">
-					<Contact contacts={chidi} />
+					<Contact contact={chidi} />
 				</div>
 			</div>
 		)
